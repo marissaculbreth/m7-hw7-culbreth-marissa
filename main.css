@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+h1, h2, p {
+  font-family: 'Be Vietnam', sans-serif;
+  padding: 3%;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+
+}
+
+footer {
+  font-size: 1rem;
+}
