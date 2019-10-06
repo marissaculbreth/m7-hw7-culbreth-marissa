@@ -3,6 +3,9 @@
   padding: 0;
   border: 0;
 }
+main {
+  background-color: #ffdb99;
+}
 
 h1, h2, p {
   font-family: 'Be Vietnam', sans-serif;
@@ -10,14 +13,52 @@ h1, h2, p {
 }
 
 h1 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  background-color: lightyellow;
+  padding: 6%;
 }
 
 h2 {
-  font-size: 1.2rem;
-
+  font-size: 1rem;
 }
 
 footer {
   font-size: 1rem;
+  background-color: lightblue;
+  width: 100%;
+  text-align: center;
+}
+
+/****------ START STICKY FOOTER ------****/
+
+.site {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.site-content {
+	flex-grow: 1;
+}
+
+/****------ END STICKY FOOTER ------****/
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  h2 {
+    font-size: 1.35rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
 }
