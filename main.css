@@ -7,18 +7,18 @@ main {
   background-color: #ffdb99;
 }
 
-h1, h2, p {
+h1, h2, p, span {
   font-family: 'Be Vietnam', sans-serif;
   padding: 3%;
 }
 
-h1 {
+h1, #city {
   font-size: 1.3rem;
   background-color: lightyellow;
   padding: 6%;
 }
 
-h2 {
+h2, #weather {
   font-size: 1rem;
 }
 
@@ -44,17 +44,17 @@ footer {
 /****------ END STICKY FOOTER ------****/
 
 @media (min-width: 768px) {
-  h1 {
+  h1, #city {
     font-size: 1.5rem;
   }
 
-  h2 {
+  h2, #weather {
     font-size: 1.2rem;
   }
 }
 
 @media (min-width: 1000px) {
-  h2 {
+  h2, #weather {
     font-size: 1.35rem;
   }
 

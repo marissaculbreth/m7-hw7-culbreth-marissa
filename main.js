@@ -3,7 +3,18 @@ xmlhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
         var apiResult = JSON.parse(this.responseText);
 
-        //Code Dealing With The API Data Goes Here
+        var city = document.createTextNode(apiResult.name);
+        var humidity = document.createTextNode(apiResult.main.humidity);
+
+        var cityName = document.getElementById('city');
+        var weatherList = document.getElementById('weather');
+
+        cityName.appendChild(city);
+
+        weatherList.appendChild(humidity);
+
+
+
 
     }
 };
